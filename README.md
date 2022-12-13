@@ -8,6 +8,8 @@ This is the single cell RNA sequencing (scRNAseq) data analysis tutorial, prepar
 
 The data is a subset of the recent work from Siletti et al (Bioarxiv, 2022; https://www.biorxiv.org/content/10.1101/2022.10.12.511898v1), which you received for this course. In this study, ~4M nuclei from different parts of the human brain is sequenced. You will later here a talk by the first author of the study, which will be a natural continuation of this practice. A subset of the original atlas is provided for the purpose of this practical in the file "../rawdata/A46_10X176_8_count_data.rds" . An accompanying metadata file, "../rawdata/A46_10X176_8_metadata.rds", will give you additional information. The rawdata as well as analysis of the entire dataset can be reached at: https://github.com/linnarsson-lab/adult-human-brain
 
+NOTE:  This file is provided on the Cocalc server for the practical.Since the data file is too large to upload on Github, we couldn't put it here. Please contact Onur Basak to obtain it.
+
 Participants will then learn how to use the ‘Seurat’ pipeline, the most popular ‘R’ package to process and analyze scRNAseq data. The instructor will guide the students step-by-step, where a prewritten code will take through the first steps of scRNAseq data analysis. These include shaping the raw data, preprocessing, dimensionality reduction, basic clustering and differential gene expression analysis.
 
 ----------
@@ -29,6 +31,9 @@ The course used the CoCalc server: https://cocalc7.science.uu.nl/
 3. What is a molecular signature? How can marker genes help us undertand cellular (and brain) function?
 
 ----------
+
+### The data
+
 
 Correspondance, requests or questions can be addressed to: o.basak@umcutrecht.nl
 ***Onur Basak***
